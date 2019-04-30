@@ -152,8 +152,10 @@ function question(index){
 		"Hány fekete  billentyű van a díszterem zongoráján?",
 		"Mióta üzemel a csocsóasztal gyártója?"		
 	];
-	
-	document.getElementById("result").innerHTML = questions[Number(localStorage.count)];
+	if (!localStorage.count)
+		document.getElementById("result").innerHTML = questions[0];
+	else
+		document.getElementById("result").innerHTML = questions[Number(localStorage.count)];
 	document.getElementById("answer").style.display = "inline";
 	document.getElementById("submit_gomb").setAttribute("onclick", "ellenoriz(" + index + ")");
 }
