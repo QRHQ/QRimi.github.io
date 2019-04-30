@@ -1,0 +1,29 @@
+body{
+	background-color: rgb(242, 212, 82);
+}
+
+h1{
+	text-align: center;
+	text-transform: capitalize;
+	background-color: brown;
+	font-size: 50px;
+}
+
+h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+p{
+	font-family: arial;
+	font-size: 20px;
+}
+button{
+	width: 40vw;
+	height: 20vw;
+	letter-spacing: 3px;
+	text-indent: 50px;
+	background-color: yellow;
+	position: center;
+	font-size: 40px;
+}
