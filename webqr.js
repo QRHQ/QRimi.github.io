@@ -174,7 +174,7 @@ function ellenoriz(index){
 		"1947"
 	];
 	
-	if (valasz.search(answers[localStorage.count]) == -1){
+	if (valasz.search(answers[localStorage.count]) == 0){
 		document.getElementById("result").innerHTML = "Rossz válasz!";
 		document.getElementById("valasz").innerHTML = "";
 		
