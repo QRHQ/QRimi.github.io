@@ -153,7 +153,7 @@ function question(index){
 		"Mióta üzemel a csocsóasztal gyártója?"		
 	];
 	
-	document.getElementById("result").innerHTML = questions[localStorage.count];
+	document.getElementById("result").innerHTML = questions[Number(localStorage.count)];
 	document.getElementById("answer").style.display = "inline";
 	document.getElementById("submit_gomb").setAttribute("onclick", "ellenoriz(" + index + ")");
 }
