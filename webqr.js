@@ -194,7 +194,7 @@ function ellenoriz(index){
 		document.getElementById("result").innerHTML = "Jó válasz!";
 		document.getElementById("gomb").style.display="inline";
 		document.getElementById("link").innerHTML = "Ugrás";
-		document.getElementById("link").href = "../index.html";    
+		document.getElementById("link").href = "index.html";    
 		if (localStorage.count)
 		  localStorage.count = Number(localStorage.count)+1;
 		else 
