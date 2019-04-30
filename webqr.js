@@ -169,7 +169,6 @@ function ellenoriz(index){
 		"NÁDOR TAMÁS",
 		"január",
 		"kék",
-		"bal",
 		"országalmát",
 		"36",
 		"1947"
